@@ -11,14 +11,11 @@ function MostrarAumento()
 	
 	num1 = parseInt(document.getElementById("sueldo").value);
 
-	num2 = 10;
-
-	num2 = parseInt(document.getElementById("resultado").value);
+	num2 = num1 * 0.10;
 	
-	resultado = num1 + (10 % num2);
+	resultado = num1 + num2;
 
-	
-	resultado = parseInt(document.getElementById("resultado").value) = resultado;
+	document.getElementById("resultado").value = resultado;
 	
 	
 	
