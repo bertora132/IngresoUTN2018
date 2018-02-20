@@ -2,15 +2,29 @@ function Mostrar()
 {
 
 	var contador=0;
-	// declarar variables
-	
-	var respuesta='si';
+	var max;
+	var min;
+	var numero
+	var respuesta="si";
 
-	while(respuesta!='no')
-	{
+	do
+	{ 
+		numero = parseInt(prompt("Ingrese un numero"));
+		
 		
 	
-	}
+	
+	
+	
+	
+	
+	
+	}while(respuesta != "no")
+
+	
+	document.getElementById("maximo").value = max;
+	document.getElementById("minimo").value = min;
+
 
 
 
