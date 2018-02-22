@@ -12,6 +12,7 @@ function Mostrar()
 		numero = parseInt(prompt("Ingrese un numero"));
 		
 		
+		
 	
 	
 	
@@ -19,7 +20,7 @@ function Mostrar()
 	
 	
 	
-	}while(respuesta != "no")
+	}while(respuesta != "si")
 
 	
 	document.getElementById("maximo").value = max;
