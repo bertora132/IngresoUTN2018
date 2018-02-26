@@ -4,7 +4,7 @@ function Mostrar()
 var repetciones = prompt("ingrese el número de repeticiones");
  
 
-for ( var numrep = repetciones ; repetciones > 1 ; repetciones ++)
+for ( var numrep = 0 ; numrep < repetciones ; numrep++)
 {
     console.log("Hola UTN FRA");
 }
