@@ -13,6 +13,7 @@ var circulo;
 var radio;
 var cal;
 var cemento;
+
 function Rectangulo () 
 {
     largo = parseInt(document.getElementById("Largo").value);   
@@ -38,7 +39,10 @@ function Materiales ()
     largo = parseInt(document.getElementById("Largo").value);   
     ancho = parseInt(document.getElementById("Ancho").value); 
 
-    //1x1 = 3 y 2
+    cal = (largo * ancho) * 3 ;
+    cemento = ( largo * ancho) * 2;
+
+    alert(" senecesitan " + cal + " bolsas de cal y " + cemento + " bolsas de cemento");
 
 	
 }
